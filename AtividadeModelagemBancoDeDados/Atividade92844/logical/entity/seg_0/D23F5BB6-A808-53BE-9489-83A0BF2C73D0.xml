@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3A87E35F-2AE3-1DD0-0055-F7DA5C61D939" name="T_TELEFONE">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D23F5BB6-A808-53BE-9489-83A0BF2C73D0" name="T_ESTADO">
 <createdBy>Kamily Albuquerque</createdBy>
-<createdTime>2022-05-12 01:29:29 UTC</createdTime>
+<createdTime>2022-05-12 02:12:23 UTC</createdTime>
 <ownerDesignName>Atividade92844</ownerDesignName>
 <engineerTo>
 <item key="1E10E429-9E12-4669-7C51-11703EE72851" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="nr_telefone_completo" id="9AB1A046-2EC3-6811-BA0E-E0B210F7BDBA">
+<Attribute name="cd_estado" id="C438E62B-3E91-854B-221D-0B66AD704F9E">
 <createdBy>Kamily Albuquerque</createdBy>
-<createdTime>2022-05-12 01:32:30 UTC</createdTime>
+<createdTime>2022-05-12 02:12:41 UTC</createdTime>
 <ownerDesignName>Atividade92844</ownerDesignName>
 <engineerTo>
 <item key="1E10E429-9E12-4669-7C51-11703EE72851" value="true"/>
@@ -25,9 +25,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cd_tipo_telefone" id="A63B55B3-A82C-CA98-4443-3E39D9969F83">
+<Attribute name="nm_estado" id="DBF11B47-33F1-0500-6557-FA0FE16E5211">
 <createdBy>Kamily Albuquerque</createdBy>
-<createdTime>2022-05-12 01:34:27 UTC</createdTime>
+<createdTime>2022-05-12 02:12:51 UTC</createdTime>
 <ownerDesignName>Atividade92844</ownerDesignName>
 <engineerTo>
 <item key="1E10E429-9E12-4669-7C51-11703EE72851" value="true"/>
@@ -35,19 +35,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nr_telefone" id="B2559C2D-26E5-66AC-A139-E9D27B8577F2">
+<Attribute name="sg_estado" id="57563F3F-CDB6-F35D-1D68-AD0DB6B41A41">
 <createdBy>Kamily Albuquerque</createdBy>
-<createdTime>2022-05-12 01:35:34 UTC</createdTime>
-<ownerDesignName>Atividade92844</ownerDesignName>
-<engineerTo>
-<item key="1E10E429-9E12-4669-7C51-11703EE72851" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="nr_ddd" id="66122B0F-8398-AE6C-1998-6D1410B6EB23">
-<createdBy>Kamily Albuquerque</createdBy>
-<createdTime>2022-05-12 01:35:57 UTC</createdTime>
+<createdTime>2022-05-12 02:13:04 UTC</createdTime>
 <ownerDesignName>Atividade92844</ownerDesignName>
 <engineerTo>
 <item key="1E10E429-9E12-4669-7C51-11703EE72851" value="true"/>
@@ -57,17 +47,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="F400C88D-D6CD-9F7F-58DA-096811F7AC00" name="T_TELEFONE PK">
+<identifier id="4ABCE425-7519-EFBF-0313-DC8FA8585869" name="T_ESTADO PK">
 <createdBy>Kamily Albuquerque</createdBy>
-<createdTime>2022-05-12 01:33:17 UTC</createdTime>
+<createdTime>2022-05-12 02:12:49 UTC</createdTime>
 <ownerDesignName>Atividade92844</ownerDesignName>
 <engineerTo>
 <item key="1E10E429-9E12-4669-7C51-11703EE72851" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>9AB1A046-2EC3-6811-BA0E-E0B210F7BDBA</attributeRef>
-<attributeRef>A63B55B3-A82C-CA98-4443-3E39D9969F83</attributeRef>
+<attributeRef>C438E62B-3E91-854B-221D-0B66AD704F9E</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

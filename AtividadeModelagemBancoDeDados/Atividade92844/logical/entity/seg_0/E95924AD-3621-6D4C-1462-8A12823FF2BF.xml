@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3A87E35F-2AE3-1DD0-0055-F7DA5C61D939" name="T_TELEFONE">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E95924AD-3621-6D4C-1462-8A12823FF2BF" name="T_CONTATO_ENDERECO">
 <createdBy>Kamily Albuquerque</createdBy>
-<createdTime>2022-05-12 01:29:29 UTC</createdTime>
+<createdTime>2022-05-12 01:54:55 UTC</createdTime>
 <ownerDesignName>Atividade92844</ownerDesignName>
 <engineerTo>
 <item key="1E10E429-9E12-4669-7C51-11703EE72851" value="true"/>
@@ -15,9 +15,20 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="nr_telefone_completo" id="9AB1A046-2EC3-6811-BA0E-E0B210F7BDBA">
+<Attribute name="nr_cep" id="B6FE667A-5C41-648F-E77B-E3916399E689">
 <createdBy>Kamily Albuquerque</createdBy>
-<createdTime>2022-05-12 01:32:30 UTC</createdTime>
+<createdTime>2022-05-12 01:56:31 UTC</createdTime>
+<ownerDesignName>Atividade92844</ownerDesignName>
+<engineerTo>
+<item key="1E10E429-9E12-4669-7C51-11703EE72851" value="true"/>
+</engineerTo>
+<use>0</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_contato" id="3B69F3D7-04C2-A6EE-8F7D-ACD3835AA9CD">
+<createdBy>Kamily Albuquerque</createdBy>
+<createdTime>2022-05-12 01:57:57 UTC</createdTime>
 <ownerDesignName>Atividade92844</ownerDesignName>
 <engineerTo>
 <item key="1E10E429-9E12-4669-7C51-11703EE72851" value="true"/>
@@ -25,9 +36,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cd_tipo_telefone" id="A63B55B3-A82C-CA98-4443-3E39D9969F83">
+<Attribute name="nr_endereco" id="66055D9D-AD09-E58D-F813-01EC5799921B">
 <createdBy>Kamily Albuquerque</createdBy>
-<createdTime>2022-05-12 01:34:27 UTC</createdTime>
+<createdTime>2022-05-12 01:58:17 UTC</createdTime>
 <ownerDesignName>Atividade92844</ownerDesignName>
 <engineerTo>
 <item key="1E10E429-9E12-4669-7C51-11703EE72851" value="true"/>
@@ -35,39 +46,30 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nr_telefone" id="B2559C2D-26E5-66AC-A139-E9D27B8577F2">
+<Attribute name="ds_complemento" id="52F3526D-72A9-0D6F-5534-1E0A60E206E5">
 <createdBy>Kamily Albuquerque</createdBy>
-<createdTime>2022-05-12 01:35:34 UTC</createdTime>
+<createdTime>2022-05-12 01:58:31 UTC</createdTime>
 <ownerDesignName>Atividade92844</ownerDesignName>
 <engineerTo>
 <item key="1E10E429-9E12-4669-7C51-11703EE72851" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="nr_ddd" id="66122B0F-8398-AE6C-1998-6D1410B6EB23">
-<createdBy>Kamily Albuquerque</createdBy>
-<createdTime>2022-05-12 01:35:57 UTC</createdTime>
-<ownerDesignName>Atividade92844</ownerDesignName>
-<engineerTo>
-<item key="1E10E429-9E12-4669-7C51-11703EE72851" value="true"/>
-</engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="F400C88D-D6CD-9F7F-58DA-096811F7AC00" name="T_TELEFONE PK">
+<identifier id="CAA90723-BF92-049E-0151-430BF3BBB720" name="T_CONTATO_ENDERECO PK">
 <createdBy>Kamily Albuquerque</createdBy>
-<createdTime>2022-05-12 01:33:17 UTC</createdTime>
+<createdTime>2022-05-12 01:56:34 UTC</createdTime>
 <ownerDesignName>Atividade92844</ownerDesignName>
 <engineerTo>
 <item key="1E10E429-9E12-4669-7C51-11703EE72851" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>9AB1A046-2EC3-6811-BA0E-E0B210F7BDBA</attributeRef>
-<attributeRef>A63B55B3-A82C-CA98-4443-3E39D9969F83</attributeRef>
+<attributeRef>B6FE667A-5C41-648F-E77B-E3916399E689</attributeRef>
+<attributeRef>3B69F3D7-04C2-A6EE-8F7D-ACD3835AA9CD</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

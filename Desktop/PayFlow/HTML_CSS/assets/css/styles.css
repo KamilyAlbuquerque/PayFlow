@@ -1,0 +1,32 @@
+:root {
+    --spacing: 100px;
+    --spacing-half: calc(var(--spacing) /2);
+    --color-markup: #fff;
+
+}
+
+html {
+    font-size: 1px;
+}
+
+body {
+    overflow: hidden;
+    font-size: 12rem;
+    scrollbar-width: 20px;
+    scrollbar-face-color: orange;
+    scrollbar-base-color: orange;
+}
+header, 
+main, 
+footer {
+    margin: var(--spacing);
+}
+
+header {
+    display: flex;
+}
+
+header > div {
+    margin-right: var(--spacing);
+}
+
